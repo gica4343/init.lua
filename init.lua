@@ -12,6 +12,7 @@ vim.opt.termguicolors = true
 vim.opt.nu = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
+vim.diagnostic.config({ virtual_text = true })
 
 
 
