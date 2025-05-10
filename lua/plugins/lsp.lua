@@ -91,7 +91,7 @@ return {
       end)
 
       require('mason-lspconfig').setup({
-        ensure_installed = {'clangd'},  -- Ensure tsserver is installed 
+        ensure_installed = {'clangd', 'lua-language-server', 'stylua'},  -- Ensure tsserver is installed 
         handlers = {
           -- this first function is the "default handler"
           -- it applies to every language server without a "custom handler"

@@ -36,7 +36,7 @@ vim.cmd([[colorscheme onedark]])
 
 
 
-vim.api.nvim_set_keymap('n', '<leader>n', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>n', ':Neotree reveal right toggle<CR>', { noremap = true, silent = true })
 
 
 
